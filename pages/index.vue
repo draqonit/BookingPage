@@ -1,22 +1,25 @@
 <template>
-  <div class="w-screen h-screen flex">
-    <div class="w-full h-full flex">
-    <div class="my-auto mx-auto flex">
-      
-      <signup></signup>
+  <div>
 
-    </div>
-    </div>
+      <topbar />
+      <hero />
+      <features />
+      
+
   </div>
+
 </template>
 
 <script>
-import Signup from '../components/Signup.vue'
+import Features from '../components/Features.vue'
+import Hero from '../components/Hero.vue'
+import Topbar from '../components/topbar.vue'
 export default {
-  components: { Signup },
-  
+  components: { Hero, Topbar },
+
 }
 </script>
+    
 
 <style>
 
